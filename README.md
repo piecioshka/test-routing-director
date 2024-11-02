@@ -1,14 +1,19 @@
 # test-routing-director
 
-Use https://github.com/flatiron/director to create app sensitive to hash change.
+📒 Test app with [director](https://github.com/flatiron/director).
 
-## Start
+## Preview 🎉
 
-```
+https://piecioshka.github.io/test-browserify/
+
+### Start
+
+```bash
 npm install
-gulp watch
+npm run build
+npm start
 ```
 
-## Authors
+## License
 
- - [piecioshka](http://twitter.com/piecioshka)
+[The MIT License](https://piecioshka.mit-license.org) @ 2015

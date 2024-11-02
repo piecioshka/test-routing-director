@@ -5,13 +5,16 @@
     "prebuild": "rm -rf dist",
     "build": "browserify src/scripts/main.js -o dist/bundle.js",
     "postbuild": "cp src/index.html dist/index.html",
-    "start": "http-server dist -c-1"
+    "start": "http-server dist -c-1",
+    "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d dist/"
   },
   "dependencies": {
     "director": "^1.2.8"
   },
   "devDependencies": {
     "browserify": "^17.0.1",
+    "cross-env": "^7.0.3",
+    "gh-pages": "^6.2.0",
     "http-server": "^14.1.1"
   }
 }

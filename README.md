@@ -4,7 +4,7 @@
 
 ## Preview 🎉
 
-https://piecioshka.github.io/test-browserify/
+https://piecioshka.github.io/test-routing-director/
 
 ### Start
 
